@@ -22,7 +22,7 @@ public class Splash extends JFrame {
         setLayout(null);
         setVisible(true);
 
-        Timer timer = new Timer(8000, e -> {
+        Timer timer = new Timer(5000, e -> {
             setVisible(false);
             new Login(); 
         });
