@@ -1,6 +1,4 @@
 package employee;
-
-
 import com.toedter.calendar.JDateChooser;
 
 import javax.swing.*;
@@ -113,10 +111,10 @@ public class AddEmployee extends JFrame implements ActionListener {
         Boxeducation.setBounds(600,300,150,30);
         add(Boxeducation);
 
-        JLabel aadhar = new JLabel("CNIC Number");
-        aadhar.setBounds(400,350,150,30);
-        aadhar.setFont(new Font("SAN_SERIF", Font.BOLD,20));
-        add(aadhar);
+        JLabel CNIC = new JLabel("CNIC Number");
+        CNIC.setBounds(400,350,150,30);
+        CNIC.setFont(new Font("SAN_SERIF", Font.BOLD,20));
+        add(CNIC);
 
         tCNIC= new JTextField();
         tCNIC.setBounds(600,350,150,30);

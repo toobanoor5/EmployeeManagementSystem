@@ -39,7 +39,7 @@ public class Login extends JFrame implements ActionListener {
         login.addActionListener(this);
         add(login);
 
-        back = new JButton(" turn BACK");
+        back = new JButton("BACK");
         back.setBounds(150,180,150,30);
         back.setBackground(Color.black);
         back.setForeground(Color.WHITE);
